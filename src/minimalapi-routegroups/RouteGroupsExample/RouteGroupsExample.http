@@ -1,0 +1,16 @@
+@RouteGroupsExample_HostAddress = http://localhost:5072
+
+GET {{RouteGroupsExample_HostAddress}}/products
+Accept: application/json
+
+POST {{RouteGroupsExample_HostAddress}}/products
+Accept: application/json
+
+GET {{RouteGroupsExample_HostAddress}}/categories
+Accept: application/json
+
+POST {{RouteGroupsExample_HostAddress}}/categories
+Accept: application/json
+
+
+###
